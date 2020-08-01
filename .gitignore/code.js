@@ -20,4 +20,8 @@ client.on("message", message => {
       console.log("Test-bot datas file is updated.");
     });
   }
+  
+  if (message.startsWith("!b")) {
+    message.channel.send("c");
+  }
 });
