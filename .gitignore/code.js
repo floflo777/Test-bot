@@ -21,7 +21,7 @@ client.on("message", message => {
     });
   }
   
-  if (message.startsWith("!b")) {
+  if (message.content.startsWith("!b")) {
     message.channel.send("c");
   }
 });
